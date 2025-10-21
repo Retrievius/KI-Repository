@@ -1,0 +1,33 @@
+Bonus: Möglichkeiten und Grenzen sowie Auswirkungen der KI
+
+Search.01: Problemformalisierung, Zustandsraum
+Elben = E, Orks = O, Anfang: Linkes Flussufer = L, Endzustand: Rechtes Flussufer = R, Kante: Boot = B
+ 
+Search.02: Suchverfahren
+1.
+Tiefensuche:
+Würzburg -> Frankfurt -> Mannheim -> Karlsruhe -> Augsburg -> München = 716 km
+Breitensuche:
+Würzburg -> Nürnberg -> München = 270 km
+A*:
+Würzburg -> Frankfurt -> Mannheim -> Karlsruhe -> Augsburg -> München = 716 km
+2. 
+Nein, die kosten sind falsch und nicht ans Schienennetz angepasst
+Augsburg: 84 km
+Erfurt: 456 km
+Frankfurt: 499 km
+Karlsruhe: 334 km
+Kassel: 502 km
+Mannheim: 414 km
+München: 0 km
+Nürnberg: 167 km
+Stuttgart: 347 km
+Würzburg: 270 km
+A*:
+Würzburg -> Nürnberg -> München = 270 km
+Search.03: Dominanz
+Dominierende Kosten sind immer gleich oder effektiver als vergleichende Kosten, also vorzuziehen.
+Search.04: Beweis der Optimalität von A*
+Eine Zuverlässige Heuristik überschätzt nie die Kosten
+Fragen:
+-
