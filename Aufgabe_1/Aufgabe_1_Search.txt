@@ -31,3 +31,5 @@ Search.04: Beweis der Optimalität von A*
 Eine Zuverlässige Heuristik überschätzt nie die Kosten
 Fragen:
 -
+
+hhhh

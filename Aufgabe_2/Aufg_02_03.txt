@@ -1,0 +1,42 @@
+Anwendungen von Evolutionären Algorithmen
+
+Anwendung 1: “Here’s Waldo” von Randal Olson
+Beschreibung:
+    - Optimierung der Suchstrategie, um Waldo schnell zu finden
+Kodierung:
+    - Individuum: Sequenz von Blickpositionen
+    - Jedes Gen: ein Suchschritt (x, y)
+Crossover:
+    - Austausch von Teilsequenzen zwischen Strategien
+Mutation: 
+    - Veränderung einzelner Suchpunkte oder Suchreihenfolgen
+Fitnessfunktion:
+    - negativ gewichtete Zeit bis zum Finden von Waldo
+    - Weniger Suchschritte -> höhere Fitness
+
+Anwendung 2: “Evolution Simulator”
+Beschreibung:
+    - Simuliert die Entwicklung virtueller Lebewesen in einer 2D-Umgebung
+Kodierung:
+    - Individuum: DNA ähnlicher Datensatz (Parameter für Körperbau, Bewegung, Verhalten)
+Crossover: 
+    - Kombination elterlicher Gene
+Mutation: 
+    - Zufällige kleine Änderungen an Parametern
+Fitnessfunktion:
+    - Abhängig von Umweltzielen, Beispielsweise
+        -> Überlebensdauer
+        -> Fortbewegungseffizienz
+        -> Energieverbrauch
+
+Anwendung 3: “American Fuzzy Lop”
+Beschreibung:
+    - Fuzzer, der Eingaben für Programme optimiert, um Fehler zu finden
+Kodierung:
+    - Individuum: Eingabedatei als Bytefolge
+Crossover: 
+    - Kombination von Eingabedateien
+Mutation: 
+    - zufällige Byte Veränderungen, Bit Flips und Segment Insertion
+Fitnessfunktion:
+    - Code Coverage (Anzahl neu erreichter Programmzweige)

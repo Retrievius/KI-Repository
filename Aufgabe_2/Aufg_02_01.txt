@@ -1,0 +1,38 @@
+Modellierung von GA
+
+Problem 1: Map Coloring
+Kodierung:
+    - Individuum: Liste der Farben zu jedem Land
+    - Farben sind ganze Zahlen
+    - Jede Kombination ist erlaubt
+    - Konflikte werden über Fitness bestraft
+Crossover:
+    - One-Point Crossover oder Uniform Crossover
+    - Kombiniert Farben der Eltern
+    - Liefert neue Farbkombinationen
+Mutation:
+    - ein Land zufällig auswählen und Farbe auf eine andere Farbe zufällig ändern
+Fitness:
+    - f(x) = −(Anzahl der Konflikte + λ × Anzahl der verwendeten Farben)
+Begründung:
+    - Einfache Mutation und Crossover ermöglichen schrittweise Verbesserung
+    - Fitness berücksichtigt Konfliktfreiheit und Farbreduktion
+
+Problem 2: 8-Queens
+Kodierung:
+    - Individuum: Permutation der Zahlen 1–8
+    - Index entspricht der Spalte
+    - Wert entspricht der Zeilenposition der Dame
+    - Verhindert Zeilen und Spaltenkonflikte, nur Diagonalkonflikte müssen bewertet werden
+Crossover: 
+    - PMX oder OX
+    - Beide Eltern tauschen Teilsegmente aus
+    - Ergebnis bleibt gültige Permutation (keine doppelten Werte)
+Mutation:
+    - Zwei zufällige Spalten werden getauscht
+Fitness:
+    - f(x) = 28 − Anzahl der angreifenden Paare
+Begründung:
+    - Permutation reduziert den Suchraum und verhindert Konflikte
+    - PMX/OX erhalten die Gültigkeit der Individuen
+    - Fitness liefert graduelle Verbesserung bis zur optimalen Lösung
