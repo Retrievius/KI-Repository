@@ -1,0 +1,13 @@
+Blatt 04: Entscheidungsbäume
+
+    A2.1: Entscheidungsbäume mit CAL3 und ID3
+
+
+
+    A2.2: Pruning
+
+
+
+    A2.3: Machine Learning mit Weka
+
+
